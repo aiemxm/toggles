@@ -3,6 +3,17 @@
     flex-direction: column;
 
 }
+.good-toggle {
+    display: flex;
+}
+
+.cheap-toggle {
+    display: flex;
+}
+
+.fast-toggle {
+    display: flex;
+}
 .switch {
     position: relative;
     display: inline-block;

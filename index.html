@@ -1,29 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Toggles</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="app">
-
+      <!-- good toggle -->
+      <div class="good-toggle">
         <label class="switch" id="good">
-            <input type="checkbox">
-            <span class="slider round"></span>
+          <input type="checkbox" id="1"/>
+          <span class="slider round"></span>
         </label>
+        <h1>Good</h1>
+      </div>
+
+      <!-- cheap toggle -->
+      <div class="cheap-toggle">
         <label class="switch" id="cheap">
-            <input type="checkbox">
-            <span class="slider round"></span>
+          <input type="checkbox" id="2"/>
+          <span class="slider round"></span>
         </label>
+        <h1>Cheap</h1>
+      </div>
+
+      <!-- fast toggle -->
+      <div class="fast-toggle">
         <label class="switch" id="fast">
-            <input type="checkbox">
-            <span class="slider round"></span>
+          <input type="checkbox" id="3"/>
+          <span class="slider round"></span>
         </label>
-        
+        <h1>Fast</h1>
+      </div>
     </div>
-        <script src="app.js"></script>
-</body>
+    <script src="app.js"></script>
+  </body>
 </html>
